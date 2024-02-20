@@ -1,0 +1,36 @@
+/* Navigation Bar stylesheet */
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 80px;
+    margin-left: 20px;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+header img:hover {
+    filter: drop-shadow(0 0 2em #202ae2aa);
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li * {
+    color: rgb(75, 48, 209);
+    text-decoration: none;
+}
